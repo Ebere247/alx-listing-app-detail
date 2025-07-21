@@ -1,21 +1,26 @@
-// interfaces/index.ts
-
-export interface CardProps {
-  title: string;
-  categories: string[];
+export interface PropertyProps {
+  name: string;
+  address: {
+    state: string;
+    city: string;
+    country: string;
+  };
   rating: number;
-  price: string;
-  features: Features;
-  location: string;
-  imageUrl: string;
-}
-export interface Features {
-  bed: number;
-  bath: number;
-  persons: number;
+  category: string[];
+  price: number;
+  offers: {
+    bed: string;
+    shower: string;
+    occupants: string;
+  };
+  image: string;
+  discount: string;
 }
 
-export interface ButtonProps {
-  label: string;
-  onClick?: () => void;
+export interface Property {
+  id: string;
+  name: string;
+  image: string;
+  price: number;
+  rating: number;
 }
