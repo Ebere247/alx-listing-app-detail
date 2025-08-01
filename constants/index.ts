@@ -1,3 +1,5 @@
+import { PropertyProps } from "../interfaces";
+
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   {
     name: "Villa Ocean Breeze",
@@ -17,6 +19,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     image: "/assets/images/almyros-residence.png",
 
     discount: "",
+    description:
+      "A stunning beachfront villa with modern amenities and breathtaking ocean views.",
+    reviews: [],
   },
   {
     name: "Mountain Escape Chalet",
@@ -36,6 +41,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     image: "/assets/images/casa-de-carolina.png",
 
     discount: "30",
+    description:
+      "A cozy chalet nestled in the mountains, perfect for a winter getaway with family or friends.",
+    reviews: [],
   },
   {
     name: "Cozy Desert Retreat",
@@ -55,6 +63,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     image: "/assets/images/designer-villa.png",
 
     discount: "",
+    description:
+      "A charming retreat in the desert with stunning views and modern amenities, ideal for a peaceful escape.",
+    reviews: [],
   },
   {
     name: "City Lights Penthouse",
@@ -74,6 +85,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     image: "/assets/images/earthen-home.png",
 
     discount: "15",
+    description:
+      "A luxurious penthouse in the heart of the city with panoramic views and top-notch amenities.",
+    reviews: [],
   },
   {
     name: "Riverside Cabin",
@@ -93,6 +107,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     image: "/assets/images/entire-cabin.png",
 
     discount: "20",
+    description:
+      "A serene cabin by the river, perfect for fishing and kayaking enthusiasts, with stunning natural surroundings.",
+    reviews: [],
   },
   {
     name: "Modern Beachfront Villa",
@@ -112,6 +129,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     image: "/assets/images/gokce-gemile-estate.png",
 
     discount: "",
+    description:
+      "A contemporary beachfront villa with a private pool and chef service, ideal for large groups or families.",
+    reviews: [],
   },
   {
     name: "Lakeside Chalet",
@@ -130,6 +150,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/happy-valley.png",
     discount: "10",
+    description:
+      "A beautiful chalet by the lake with stunning mountain views, perfect for hiking and outdoor activities.",
+    reviews: [],
   },
   {
     name: "Tropical Garden Villa",
@@ -148,6 +171,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/luxury-villa.png",
     discount: "25",
+    description:
+      "A tropical villa surrounded by lush gardens, offering a peaceful retreat with modern amenities.",
+    reviews: [],
   },
   {
     name: "Urban Loft",
@@ -166,6 +192,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/palaise-hassan.png",
     discount: "",
+    description:
+      "A stylish urban loft in the city center, perfect for exploring the vibrant culture and nightlife.",
+    reviews: [],
   },
   {
     name: "Secluded Forest Cabin",
@@ -184,6 +213,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/palaise-hassan.png",
     discount: "40",
+    description:
+      "A secluded cabin in the forest with a hot tub, perfect for a romantic getaway or family retreat.",
+    reviews: [],
   },
   {
     name: "Cliffside Villa",
@@ -202,6 +234,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/private-room.png",
     discount: "50",
+    description:
+      "A luxurious cliffside villa with an infinity pool and breathtaking sea views, ideal for a lavish vacation.",
+    reviews: [],
   },
   {
     name: "Coastal Escape Villa",
@@ -220,6 +255,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/riad-mayo.png",
     discount: "",
+    description:
+      "A beautifully restored historical villa in the heart of Tuscany, offering a unique blend of luxury and culture.",
+    reviews: [],
   },
   {
     name: "Historical Villa",
@@ -238,6 +276,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/royal-zephyr.png",
     discount: "35",
+    description:
+      "A modern apartment in the bustling downtown area, perfect for exploring Tokyo's vibrant culture and cuisine.",
+    reviews: [],
   },
   {
     name: "Downtown Apartment",
@@ -256,6 +297,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/villa-arrcife.png",
     discount: "",
+    description:
+      "An exclusive safari lodge offering guided tours and luxury accommodations in the heart of the Serengeti.",
+    reviews: [],
   },
   {
     name: "Luxury Safari Lodge",
@@ -274,6 +318,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/villa-lamp.png",
     discount: "20",
+    description:
+      "A quaint countryside cottage with a cozy fireplace, perfect for a peaceful retreat in the English countryside.",
+    reviews: [],
   },
   {
     name: "Countryside Cottage",
@@ -292,6 +339,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/villa-loui.png",
     discount: "25",
+    description:
+      "A luxurious riverfront mansion with a private garden, offering stunning views of the Seine and Parisian architecture.",
+    reviews: [],
   },
   {
     name: "Riverfront Mansion",
@@ -310,6 +360,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/villa-white.png",
     discount: "30",
+    description:
+      "A charming ski chalet with direct access to the slopes, perfect for winter sports enthusiasts and families.",
+    reviews: [],
   },
   {
     name: "Ski Chalet",
@@ -328,6 +381,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/gokce-gemile-estate.png",
     discount: "",
+    description:
+      "A stunning clifftop retreat with panoramic ocean views and a private pool, perfect for a luxurious vacation in South Africa.",
+    reviews: [],
   },
   {
     name: "Island Paradise Villa",
@@ -346,6 +402,9 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/gokce-gemile-estate.png",
     discount: "60",
+    description:
+      "A luxurious riverfront mansion with a private garden, offering stunning views of the Seine and Parisian architecture.",
+    reviews: [],
   },
   {
     name: "Clifftop Retreat",
@@ -364,5 +423,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "/assets/images/gokce-gemile-estate.png",
     discount: "",
+    description:
+      "A modern apartment in the bustling downtown area, perfect for exploring Tokyo's vibrant culture and cuisine.",
+    reviews: [],
   },
 ];

@@ -15,6 +15,8 @@ export interface PropertyProps {
   };
   image: string;
   discount: string;
+  description: string;
+  reviews: Review[];
 }
 
 export interface Property {
@@ -23,4 +25,12 @@ export interface Property {
   image: string;
   price: number;
   rating: number;
+  description: string;
+}
+
+export interface Review {
+  name: string;
+  rating: number;
+  comment: string;
+  avatar: string;
 }
